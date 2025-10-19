@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "montserat";
+  src: url(Montserrat-Bold.ttf);
+}
+
+header {
+  background: black url(kkuda.png) no-repeat right center;
+  background-size: contain;
+  color: white;
+  font-family: montserat;
+  padding: 20px 80px 20px 60px;
+  position: relative;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: red;
+  padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 9px;
+}
+
+nav a {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  font-family: montserat;
+}
+
+.navi {
+  background: black;
+  border-radius: 8px;
+  margin: 7px;
+}
+
+body {
+  margin: 0;
+}
