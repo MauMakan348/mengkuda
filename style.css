@@ -3,6 +3,11 @@
   src: url(Montserrat-Bold.ttf);
 }
 
+@font-face {
+  font-family: "monmed";
+  src: url(Montserrat-Medium.ttf);
+}
+
 header {
   background: black url(kkuda.png) no-repeat right center;
   background-size: contain;
@@ -68,4 +73,15 @@ nav a {
 
 body {
   margin: 0;
+}
+
+.teks {
+  font-family: monmed;
+}
+
+.teks p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-indent: 25px;
+  text-align: justify;
 }
