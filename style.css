@@ -11,6 +11,7 @@ header {
   padding: 20px 80px 20px 60px;
   position: relative;
   font-size: 20px;
+  text-align: left;
 }
 
 nav {
@@ -51,3 +52,4 @@ nav a {
 body {
   margin: 0;
 }
+
