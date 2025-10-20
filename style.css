@@ -79,9 +79,14 @@ body {
   font-family: monmed;
 }
 
+.teks h2 {
+  margin-bottom: 8px;
+}
+
 .teks p {
   margin-top: 0;
   margin-bottom: 8px;
   text-indent: 25px;
   text-align: justify;
 }
+
