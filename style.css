@@ -63,14 +63,29 @@ nav a {
   justify-content: center;
 }
 
+.decor01 {
+  position: fixed;
+  top: 70%;
+  left: -65px;
+  width: 170px;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 30px;
+  transform: rotate(20deg);
+}
+
 body {
   margin: 0;
 }
 
 .teks {
   font-family: monmed;
-  margin: 20px 100px 20px 50px;
+  margin: 20px 100px 20px 100px;
   display: flex;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
 }
 
 .teks h2 {
@@ -83,8 +98,14 @@ body {
   text-align: justify;
 }
 
-.p01 {
-  display: flex;
+.tombol {
+  display: inline-block;
+  color: red;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-family: montserat;
 }
 
 .gmbr01 {
@@ -97,6 +118,6 @@ footer {
   background: #cf0a0a;
   color: aliceblue;
   font-family: monmed;
-  font-size: 10px;
+  font-size: 13px;
   padding: 15px;
 }
