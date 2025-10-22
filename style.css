@@ -1,15 +1,15 @@
 @font-face {
   font-family: "montserat";
-  src: url(Montserrat-Bold.ttf);
+  src: url(font/Montserrat-Bold.ttf);
 }
 
 @font-face {
   font-family: "monmed";
-  src: url(Montserrat-Medium.ttf);
+  src: url(font/Montserrat-Medium.ttf);
 }
 
 header {
-  background: black url(kkuda.png) no-repeat right center;
+  background: black url(gambar/kkuda.png) no-repeat right center;
   background-size: contain;
   color: white;
   font-family: montserat;
@@ -52,7 +52,7 @@ nav a {
   /*gif*/
   width: 100%;
   height: 250px;
-  background-image: url(kudaajg.gif);
+  background-image: url(gambar/kudaajg.gif);
   background-size: 100% 100%;
   /*font*/
   font-size: 25px;
@@ -111,6 +111,41 @@ body {
 .gmbr01 {
   margin-top: 20px;
   text-align: center;
+}
+
+/*halaman2*/
+.daku-kontener {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  justify-items: center;
+  gap: 30px;
+  padding: 30px 3%;
+  color: #eeeeee;
+  font-family: monmed;
+}
+.daku-item {
+  background: #cf0a0a;
+  border-radius: 14px;
+  width: 220px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.daku-item h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.daku-item p {
+  margin-top: 0;
+  margin-bottom: 4px;
+  text-align: left;
+  padding: 0px 15px;
+}
+.daku-jpg {
+  outline: 20px white;
+  border-radius: 20px;
+  padding-top: 10px;
 }
 
 footer {
