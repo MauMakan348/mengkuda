@@ -2,10 +2,17 @@
   font-family: "montserat";
   src: url(font/Montserrat-Bold.ttf);
 }
-
 @font-face {
   font-family: "monmed";
   src: url(font/Montserrat-Medium.ttf);
+}
+@keyframes muter {
+  form {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 header {
@@ -72,7 +79,7 @@ nav a {
   z-index: -1;
   pointer-events: none;
   border-radius: 30px;
-  transform: rotate(20deg);
+  animation: muter 60s infinite linear;
 }
 
 body {
@@ -118,8 +125,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   justify-items: center;
-  gap: 30px;
-  padding: 30px 3%;
+  gap: 25px;
+  padding: 50px;
   color: #eeeeee;
   font-family: monmed;
 }
@@ -146,6 +153,16 @@ body {
   outline: 20px white;
   border-radius: 20px;
   padding-top: 10px;
+}
+.decor02 {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 30px;
 }
 
 footer {
