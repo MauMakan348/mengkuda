@@ -69,7 +69,9 @@ nav a {
   align-items: center;
   justify-content: center;
 }
-
+.beranda01 {
+  background-color: #dc5f0075;
+}
 .decor01 {
   position: fixed;
   top: 70%;
@@ -165,7 +167,141 @@ body {
   border-radius: 30px;
 }
 
+/*halaman3*/
+.arena-kontener {
+  display: grid;
+  padding: 40px 60px;
+  justify-items: center;
+  gap: 30px;
+}
+.arena-item {
+  background: #cf0a0a;
+  border-radius: 10px;
+  color: aliceblue;
+  font-family: monmed;
+  width: 80%;
+}
+.arena-item img {
+  display: block;
+  width: 80%;
+  max-width: 550px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.arena-item h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  padding: 0px 15px;
+  text-align: center;
+}
+.arena-item p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-indent: 25px;
+  padding: 0px 15px;
+  text-align: justify;
+}
+.decor03 {
+  position: fixed;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+.decor04 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+.decor05 {
+  position: fixed;
+  top: 0;
+  right: 20%;
+  width: 60%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/*halaman4*/
+.banner2 {
+  /*gif*/
+  width: 100%;
+  height: 200px;
+  background-image: url(gambar/kuda-lari.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 15%;
+  border-image: fill 0 linear-gradient(#0001, #000);
+  /*font*/
+  font-size: 25px;
+  color: aliceblue;
+  -webkit-text-stroke: 5px #000000;
+  paint-order: stroke fill;
+  font-family: montserat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sjrh-kontener {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.sejarah1 {
+  background-color: #dc5f00;
+  border-radius: 10px;
+  color: #eeeeee;
+  padding: 20px;
+  width: 60%;
+}
+.sejarah1 h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.sejarah1 p {
+  margin-top: 0;
+  margin-bottom: 1px;
+  text-indent: 25px;
+  text-align: justify;
+}
+.sejarah12 {
+  background-color: #dc5f00;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  width: 25%;
+}
+.sejarah12 img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+}
+.bg04 {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+
 footer {
+  bottom: 0;
   text-align: center;
   background: #cf0a0a;
   color: aliceblue;
