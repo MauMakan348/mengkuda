@@ -34,6 +34,7 @@ nav {
   align-items: center;
   background: linear-gradient(to right, #dc5f00, #cf0a0a, #000000);
   padding: 8px;
+  min-height: 7vh;
 }
 nav ul {
   display: flex;
@@ -57,51 +58,60 @@ nav a {
 nav a:hover {
   color: #cf0a0a;
 }
-.sidebar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background-color: rgba(240, 248, 255, 0.582);
-  backdrop-filter: blur(10px);
-  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+.burgir {
   display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-items: flex-start;
 }
-.sidebar li {
-  width: 100%;
-}
-.sidebar a {
-  width: 100%;
-}
-.menu-button{
+.noburgir{
   display: none;
-  margin-left: auto;
+}
+#burgir-menu {
+  display: none;
 }
 @media (max-width:742px){
   nav{
+    display: flex;
     justify-content: right;
+    padding: 8px 7vh;
+    color: black;
   }
-  nav a{
-    background-color: #dc5f00;
-  }
-  .hidemobile{
-    display: none;
-  }
-  .menu-button{
+  .burgir{
     display: block;
+    font-size: 25px;
+    background-color: #dc5f00;
+    padding: 0 8px;
+    border-radius: 5px;
   }
-  .menu-button svg{
-    stroke: #000;
-    stroke-width: 20;
+  .noburgir{
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    -webkit-text-stroke: 2px #ffffff;
   }
-  .sidebar svg{
-    stroke: #000;
-    stroke-width: 20;
+  .noburgir:hover{
+    color: #dc5f00;
+    -webkit-text-stroke: 2px #dc5f00;
+  }
+  .navi{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background: rgba(182, 100, 33, 0.575);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+  .navi li{
+    margin-bottom: 3vh;
+  }
+  #burgir-menu:checked ~ .navi{
+    display: block;
+    padding: 8vh 0;
   }
 }
 
@@ -357,5 +367,3 @@ footer {
   font-size: 13px;
   padding: 15px;
 }
-
-
