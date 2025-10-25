@@ -104,11 +104,6 @@ nav a:hover {
     stroke-width: 20;
   }
 }
-@media (max-width:400px){
-  .sidebar{
-    width: 100%;
-  }
-}
 
 
 body {
@@ -362,4 +357,5 @@ footer {
   font-size: 13px;
   padding: 15px;
 }
+
 
