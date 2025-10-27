@@ -15,7 +15,6 @@
   }
 }
 
-
 /* atas!! */
 header {
   background: black url(gambar/kkuda.png) no-repeat right center;
@@ -26,13 +25,12 @@ header {
   min-height: 125px;
   text-align: center;
 }
-header h1{
+header h1 {
   color: white;
   font-size: clamp(2.5rem, 3rem, 5rem);
   word-wrap: break-word;
 }
 /* atas done */
-
 
 /* navigasi */
 nav {
@@ -47,7 +45,6 @@ nav {
 }
 nav ul {
   display: flex;
-  /* flex-wrap: wrap; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -70,27 +67,27 @@ nav a:hover {
 .burgir {
   display: none;
 }
-.noburgir{
+.noburgir {
   display: none;
 }
 #burgir-menu {
   display: none;
 }
-@media (max-width:742px){
-  nav{
+@media (max-width: 742px) {
+  nav {
     display: flex;
     justify-content: right;
     padding: 8px 4vh;
     color: black;
   }
-  .burgir{
+  .burgir {
     display: block;
     font-size: 25px;
     background-color: #dc5f00;
     padding: 0 8px;
     border-radius: 5px;
   }
-  .noburgir{
+  .noburgir {
     color: white;
     font-size: 25px;
     background-color: black;
@@ -99,11 +96,11 @@ nav a:hover {
     display: block;
     -webkit-text-stroke: 2px #ffffff;
   }
-  .noburgir:hover{
+  .noburgir:hover {
     color: #dc5f00;
     -webkit-text-stroke: 2px #dc5f00;
   }
-  .navi{
+  .navi {
     display: none;
     position: fixed;
     top: 0;
@@ -115,23 +112,21 @@ nav a:hover {
     flex-direction: column;
     transition: 0.3s ease;
   }
-  .navi li{
+  .navi li {
     margin-bottom: 3vh;
   }
-  #burgir-menu:checked ~ .navi{
+  #burgir-menu:checked ~ .navi {
     display: block;
     padding: 8vh 0;
   }
 }
 /* navigasi done */
 
-
 body {
   margin: 0;
   height: 100%;
   width: 100%;
 }
-
 
 /* halaman1 */
 .banner {
@@ -147,7 +142,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.banner h1{
+.banner h1 {
   font-size: clamp(1.8rem, 9vw, 5rem);
 }
 .beranda01 {
@@ -182,7 +177,7 @@ body {
   text-indent: 25px;
   text-align: justify;
 }
-.teks img{
+.teks img {
   min-width: 200px;
 }
 .tombol {
@@ -195,12 +190,12 @@ body {
   font-family: montserat;
   font-size: 0.9rem;
 }
-@media (max-width:742px){
-  .teks img{
+@media (max-width: 742px) {
+  .teks img {
     min-width: 20vw;
   }
 }
-
+/* halaman1done */
 
 /*halaman2*/
 .daku-kontener {
@@ -246,13 +241,14 @@ body {
   pointer-events: none;
   border-radius: 30px;
 }
-@media (max-width: 742px){
-  .daku-kontener{
+@media (max-width: 742px) {
+  .daku-kontener {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     padding: 25px;
   }
 }
+/* halaman2done */
 
 /*halaman3*/
 .arena-kontener {
@@ -318,7 +314,7 @@ body {
   z-index: -1;
   pointer-events: none;
 }
-
+/* halaman3done */
 
 /*halaman4*/
 .banner2 {
@@ -343,6 +339,7 @@ body {
 .sjrh-kontener {
   display: flex;
   align-items: start;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
@@ -389,30 +386,29 @@ body {
   z-index: -1;
   pointer-events: none;
 }
-@media (max-width: 742px){
-  .sjrh-kontener{
+@media (max-width: 742px) {
+  .sjrh-kontener {
     flex-direction: column-reverse;
     align-items: center;
   }
-  .sejarah1{
+  .sejarah1 {
     width: 90%;
   }
-  .sejarah12{
+  .sejarah12 {
     width: 90%;
     height: 25vh;
   }
 }
+/* halaman4done */
 
 footer {
+  display: flex;
   bottom: 0;
   justify-content: center;
   align-items: center;
-  text-align: center;
   background: #cf0a0a;
   color: aliceblue;
   font-family: monmed;
   font-size: 1.9vh;
   padding: 15px;
 }
-
-
