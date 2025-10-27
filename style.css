@@ -406,10 +406,13 @@ body {
 footer {
   bottom: 0;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   background: #cf0a0a;
   color: aliceblue;
   font-family: monmed;
   font-size: 1.9vh;
   padding: 15px;
 }
+
 
