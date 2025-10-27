@@ -405,10 +405,11 @@ body {
 
 footer {
   bottom: 0;
-  text-align: center;
+  justify-content: center;
   background: #cf0a0a;
   color: aliceblue;
   font-family: monmed;
-  font-size: 13px;
+  font-size: 1.9vh;
   padding: 15px;
 }
+
